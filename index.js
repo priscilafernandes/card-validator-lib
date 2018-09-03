@@ -61,17 +61,17 @@ function finalNumber(num) {
   return newNumber;
 }
 
-console.log(cardValidator('36490102462661'));
-console.log(cardValidator('5555666677778884'));
-console.log(cardValidator('dsdsdsdsdsds'));
-console.log(cardValidator('38522370005544'));
-console.log(cardValidator('36490102462661'));
-console.log(cardValidator('5555666677778884'));
-console.log(cardValidator('4012001037141112'));
-console.log(cardValidator('376449047333005'));
-console.log(cardValidator('6362970000457013'));
-console.log(cardValidator('36490102462661'));
-console.log(cardValidator('6370950000000005'));
-console.log(cardValidator('6062825624254001'));
+// console.log(cardValidator('36490102462661'));
+// console.log(cardValidator('5555666677778884'));
+// console.log(cardValidator('dsdsdsdsdsds'));
+// console.log(cardValidator('38522370005544'));
+// console.log(cardValidator('36490102462661'));
+// console.log(cardValidator('5555666677778884'));
+// console.log(cardValidator('4012001037141112'));
+// console.log(cardValidator('376449047333005'));
+// console.log(cardValidator('6362970000457013'));
+// console.log(cardValidator('36490102462661'));
+// console.log(cardValidator('6370950000000005'));
+// console.log(cardValidator('6062825624254001'));
 
 module.exports = cardValidator;
