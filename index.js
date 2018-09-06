@@ -3,16 +3,16 @@ const pairIndex = [];
 
 function cardValidator(num) {
   let regExp = new RegExp(/\d{14,16}(~\W[a-zA-Z])*$/g);
-  let validNumber = num.match(regExp); 
+  let validNumber = num.match(regExp);
+  //parseInt(validNumber);
 
   if (num.length > 16 || validNumber === undefined || validNumber === null || validNumber === '') {
     return false;
+    // throw new Error('Número inválido');
   }
-  
+
   return validNumber = finalNumber(num);
 }
-
-// Algoritimo de Luhn:
 
 function pairDigits(num) {
   let digits = num.split('');
@@ -60,18 +60,5 @@ function finalNumber(num) {
   
   return newNumber;
 }
-
-// console.log(cardValidator('36490102462661'));
-// console.log(cardValidator('5555666677778884'));
-// console.log(cardValidator('dsdsdsdsdsds'));
-// console.log(cardValidator('38522370005544'));
-// console.log(cardValidator('36490102462661'));
-// console.log(cardValidator('5555666677778884'));
-// console.log(cardValidator('4012001037141112'));
-// console.log(cardValidator('376449047333005'));
-// console.log(cardValidator('6362970000457013'));
-// console.log(cardValidator('36490102462661'));
-// console.log(cardValidator('6370950000000005'));
-// console.log(cardValidator('6062825624254001'));
 
 module.exports = cardValidator;
