@@ -14,7 +14,7 @@ Exemplo de uso:
 ```
 $node
 > let cardValidator = require('card-validator-lib');
-> cardValidator(36490102462661); //true
+> cardValidator('36490102462661'); //true
 ```
 
 
