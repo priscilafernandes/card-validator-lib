@@ -13,7 +13,7 @@ Exemplo de uso:
 
 ```
 $node
-> let cardValidator = require('card-validator-lib');
+> let cardValidator = require('card-validator-luhn-lib');
 > cardValidator('36490102462661'); //true
 ```
 
@@ -25,7 +25,7 @@ $node
 ## Instalação
 
 - você deve ter o node + npm instalados. Para guia de instalação, visite [o site oficial](https://www.npmjs.com/get-npm);
-- proceda com a instalação com `$npm install card-validator-lib`
+- proceda com a instalação com `$npm install card-validator-luhn-lib`
 
 
 ## Roadmap oficial do projeto
